@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">123049071524-cqmouupsr313ppohd7vn43ofpumk3e0f.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">123049071524</string>
+    <string name="google_api_key" translatable="false">AIzaSyD9mPm5Z5Pp_-M9i6FWf2fDDjaaCm8LV6E</string>
+    <string name="google_app_id" translatable="false">1:123049071524:android:bc02c4e8c9a7f739a2a731</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD9mPm5Z5Pp_-M9i6FWf2fDDjaaCm8LV6E</string>
+    <string name="google_storage_bucket" translatable="false">morefire-61dcd.appspot.com</string>
+    <string name="project_id" translatable="false">morefire-61dcd</string>
+</resources>

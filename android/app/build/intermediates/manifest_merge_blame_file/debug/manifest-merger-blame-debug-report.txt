@@ -1,0 +1,291 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.morefire"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/megha/PROJECT/MoreFire/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/megha/PROJECT/MoreFire/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.54.0] /home/megha/.gradle/caches/transforms-2/files-2.1/a0953a6941c1135d57623c7d643d23a3/flipper-0.54.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.54.0] /home/megha/.gradle/caches/transforms-2/files-2.1/a0953a6941c1135d57623c7d643d23a3/flipper-0.54.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_auth] /home/megha/PROJECT/MoreFire/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+14-->[:react-native-firebase_auth] /home/megha/PROJECT/MoreFire/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-firebase_auth] /home/megha/PROJECT/MoreFire/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+15-->[:react-native-firebase_auth] /home/megha/PROJECT/MoreFire/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:26:22-107
+17
+18    <application
+18-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:6:5-26:19
+19        android:name="com.morefire.MainApplication"
+19-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:7:7-38
+20        android:allowBackup="false"
+20-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:11:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6466522822c9f31c5107b8fc2277998a/core-1.1.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:9:7-41
+24        android:label="@string/app_name"
+24-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:8:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:10:7-52
+26        android:theme="@style/AppTheme"
+26-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:13:7-38
+27        android:usesCleartextTraffic="true" >
+27-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:12:7-42
+28        <activity
+28-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:14:7-24:18
+29            android:name="com.morefire.MainActivity"
+29-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:15:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+30-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:17:9-86
+31            android:label="@string/app_name"
+31-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:16:9-41
+32            android:launchMode="singleTask"
+32-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:18:9-40
+33            android:windowSoftInputMode="adjustResize" >
+33-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:19:9-51
+34            <intent-filter>
+34-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:20:9-23:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:21:13-65
+35-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:21:21-62
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:22:13-73
+37-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:22:23-70
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+40-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:25:7-84
+40-->/home/megha/PROJECT/MoreFire/android/app/src/main/AndroidManifest.xml:25:17-81
+41
+42        <service
+42-->[:react-native-firebase] /home/megha/PROJECT/MoreFire/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+43            android:name="com.google.firebase.components.ComponentDiscoveryService"
+43-->[:react-native-firebase] /home/megha/PROJECT/MoreFire/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+44            android:directBootAware="true"
+44-->[com.google.firebase:firebase-common:19.4.0] /home/megha/.gradle/caches/transforms-2/files-2.1/633e9ed561415b9e070ffe08a71fafba/jetified-firebase-common-19.4.0/AndroidManifest.xml:35:13-43
+45            android:exported="false" >
+45-->[com.google.firebase:firebase-firestore:22.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/a6892d2d88a6ef3e3a9aff1684d03f3c/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:19:13-37
+46            <meta-data
+46-->[:react-native-firebase] /home/megha/PROJECT/MoreFire/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+47                android:name="com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar"
+47-->[:react-native-firebase] /home/megha/PROJECT/MoreFire/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[:react-native-firebase] /home/megha/PROJECT/MoreFire/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+49            <meta-data
+49-->[com.google.firebase:firebase-firestore:22.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/a6892d2d88a6ef3e3a9aff1684d03f3c/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:20:13-22:85
+50                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+50-->[com.google.firebase:firebase-firestore:22.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/a6892d2d88a6ef3e3a9aff1684d03f3c/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:21:17-111
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-firestore:22.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/a6892d2d88a6ef3e3a9aff1684d03f3c/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:22:17-82
+52            <meta-data
+52-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:77:13-79:85
+53                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+53-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:78:17-109
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:79:17-82
+55            <meta-data
+55-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6be347fc773bd3718759b2fcb64e74c7/play-services-measurement-api-18.0.0/AndroidManifest.xml:30:13-32:85
+56                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+56-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6be347fc773bd3718759b2fcb64e74c7/play-services-measurement-api-18.0.0/AndroidManifest.xml:31:17-139
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6be347fc773bd3718759b2fcb64e74c7/play-services-measurement-api-18.0.0/AndroidManifest.xml:32:17-82
+58            <meta-data
+58-->[com.google.firebase:firebase-installations:16.3.4] /home/megha/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:18:13-20:85
+59                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+59-->[com.google.firebase:firebase-installations:16.3.4] /home/megha/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:19:17-127
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-installations:16.3.4] /home/megha/.gradle/caches/transforms-2/files-2.1/dc1de0c209d52e17e0d8a11f498db4e8/firebase-installations-16.3.4/AndroidManifest.xml:20:17-82
+61        </service>
+62
+63        <activity
+63-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:27:9-44:20
+64            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+64-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:28:13-80
+65            android:excludeFromRecents="true"
+65-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:29:13-46
+66            android:exported="true"
+66-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:30:13-36
+67            android:launchMode="singleTask"
+67-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:31:13-44
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+68-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:32:13-72
+69            <intent-filter>
+69-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:33:13-43:29
+70                <action android:name="android.intent.action.VIEW" />
+70-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:17-69
+70-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:25-66
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:17-76
+72-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:27-73
+73                <category android:name="android.intent.category.BROWSABLE" />
+73-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:17-78
+73-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:27-75
+74
+75                <data
+75-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:39:17-42:51
+76                    android:host="firebase.auth"
+76-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:40:21-49
+77                    android:path="/"
+77-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:41:21-37
+78                    android:scheme="genericidp" />
+78-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:42:21-48
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:45:9-62:20
+82            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+82-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:46:13-79
+83            android:excludeFromRecents="true"
+83-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:47:13-46
+84            android:exported="true"
+84-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:48:13-36
+85            android:launchMode="singleTask"
+85-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:49:13-44
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+86-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:50:13-72
+87            <intent-filter>
+87-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:51:13-61:29
+88                <action android:name="android.intent.action.VIEW" />
+88-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:17-69
+88-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:34:25-66
+89
+90                <category android:name="android.intent.category.DEFAULT" />
+90-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:17-76
+90-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:27-73
+91                <category android:name="android.intent.category.BROWSABLE" />
+91-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:17-78
+91-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:37:27-75
+92
+93                <data
+93-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:39:17-42:51
+94                    android:host="firebase.auth"
+94-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:40:21-49
+95                    android:path="/"
+95-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:41:21-37
+96                    android:scheme="recaptcha" />
+96-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:42:21-48
+97            </intent-filter>
+98        </activity>
+99
+100        <service
+100-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:64:9-73:19
+101            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+101-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:65:13-101
+102            android:enabled="true"
+102-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:66:13-35
+103            android:exported="false" >
+103-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:67:13-37
+104            <intent-filter>
+104-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:68:13-72:29
+105                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+105-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:17-89
+105-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:25-86
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:17-76
+107-->[com.google.firebase:firebase-auth:20.0.1] /home/megha/.gradle/caches/transforms-2/files-2.1/a62964c3e711e27cb7cf03b547c9c627/jetified-firebase-auth-20.0.1/AndroidManifest.xml:36:27-73
+108            </intent-filter>
+109        </service>
+110
+111        <provider
+111-->[com.google.firebase:firebase-common:19.4.0] /home/megha/.gradle/caches/transforms-2/files-2.1/633e9ed561415b9e070ffe08a71fafba/jetified-firebase-common-19.4.0/AndroidManifest.xml:26:9-31:39
+112            android:name="com.google.firebase.provider.FirebaseInitProvider"
+112-->[com.google.firebase:firebase-common:19.4.0] /home/megha/.gradle/caches/transforms-2/files-2.1/633e9ed561415b9e070ffe08a71fafba/jetified-firebase-common-19.4.0/AndroidManifest.xml:27:13-77
+113            android:authorities="com.morefire.firebaseinitprovider"
+113-->[com.google.firebase:firebase-common:19.4.0] /home/megha/.gradle/caches/transforms-2/files-2.1/633e9ed561415b9e070ffe08a71fafba/jetified-firebase-common-19.4.0/AndroidManifest.xml:28:13-72
+114            android:directBootAware="true"
+114-->[com.google.firebase:firebase-common:19.4.0] /home/megha/.gradle/caches/transforms-2/files-2.1/633e9ed561415b9e070ffe08a71fafba/jetified-firebase-common-19.4.0/AndroidManifest.xml:29:13-43
+115            android:exported="false"
+115-->[com.google.firebase:firebase-common:19.4.0] /home/megha/.gradle/caches/transforms-2/files-2.1/633e9ed561415b9e070ffe08a71fafba/jetified-firebase-common-19.4.0/AndroidManifest.xml:30:13-37
+116            android:initOrder="100" />
+116-->[com.google.firebase:firebase-common:19.4.0] /home/megha/.gradle/caches/transforms-2/files-2.1/633e9ed561415b9e070ffe08a71fafba/jetified-firebase-common-19.4.0/AndroidManifest.xml:31:13-36
+117
+118        <activity
+118-->[com.google.android.gms:play-services-auth:18.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/0a126c1774474d2c805168dde34a9862/play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+119            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+119-->[com.google.android.gms:play-services-auth:18.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/0a126c1774474d2c805168dde34a9862/play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+120            android:excludeFromRecents="true"
+120-->[com.google.android.gms:play-services-auth:18.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/0a126c1774474d2c805168dde34a9862/play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-auth:18.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/0a126c1774474d2c805168dde34a9862/play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.android.gms:play-services-auth:18.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/0a126c1774474d2c805168dde34a9862/play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+123        <!--
+124            Service handling Google Sign-In user revocation. For apps that do not integrate with
+125            Google Sign-In, this service will never be started.
+126        -->
+127        <service
+127-->[com.google.android.gms:play-services-auth:18.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/0a126c1774474d2c805168dde34a9862/play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+128            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+128-->[com.google.android.gms:play-services-auth:18.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/0a126c1774474d2c805168dde34a9862/play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+129            android:exported="true"
+129-->[com.google.android.gms:play-services-auth:18.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/0a126c1774474d2c805168dde34a9862/play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+130            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+130-->[com.google.android.gms:play-services-auth:18.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/0a126c1774474d2c805168dde34a9862/play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+131            android:visibleToInstantApps="true" />
+131-->[com.google.android.gms:play-services-auth:18.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/0a126c1774474d2c805168dde34a9862/play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+132
+133        <activity
+133-->[com.google.android.gms:play-services-base:17.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/d3caf54114e86177d18237a7364d1766/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+134            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+134-->[com.google.android.gms:play-services-base:17.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/d3caf54114e86177d18237a7364d1766/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-base:17.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/d3caf54114e86177d18237a7364d1766/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+136-->[com.google.android.gms:play-services-base:17.1.0] /home/megha/.gradle/caches/transforms-2/files-2.1/d3caf54114e86177d18237a7364d1766/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+137
+138        <receiver
+138-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:29:9-33:20
+139            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+139-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:30:13-85
+140            android:enabled="true"
+140-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:31:13-35
+141            android:exported="false" >
+141-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:32:13-37
+142        </receiver>
+143
+144        <service
+144-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:35:9-38:40
+145            android:name="com.google.android.gms.measurement.AppMeasurementService"
+145-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:36:13-84
+146            android:enabled="true"
+146-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:37:13-35
+147            android:exported="false" />
+147-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:38:13-37
+148        <service
+148-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:39:9-43:72
+149            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+149-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:40:13-87
+150            android:enabled="true"
+150-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:41:13-35
+151            android:exported="false"
+151-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:42:13-37
+152            android:permission="android.permission.BIND_JOB_SERVICE" />
+152-->[com.google.android.gms:play-services-measurement:18.0.0] /home/megha/.gradle/caches/transforms-2/files-2.1/6f74dcac7c5d27c507231f5c02635066/play-services-measurement-18.0.0/AndroidManifest.xml:43:13-69
+153
+154        <meta-data
+154-->[com.google.android.gms:play-services-basement:17.1.1] /home/megha/.gradle/caches/transforms-2/files-2.1/e65150f4a785b24035f83336afb72261/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+155            android:name="com.google.android.gms.version"
+155-->[com.google.android.gms:play-services-basement:17.1.1] /home/megha/.gradle/caches/transforms-2/files-2.1/e65150f4a785b24035f83336afb72261/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+156            android:value="@integer/google_play_services_version" />
+156-->[com.google.android.gms:play-services-basement:17.1.1] /home/megha/.gradle/caches/transforms-2/files-2.1/e65150f4a785b24035f83336afb72261/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+157    </application>
+158
+159</manifest>
